@@ -1,11 +1,11 @@
-#colorpalette{
-    border: 1px solid black;
-}
+
 
 .color{
     width: 50px;
     height: 50px;
     display: inline-block;
+    border: 1px solid black;
+
     
 }
 #pixel-board{
@@ -20,13 +20,13 @@
 }
 
 .color1{
-background-color: blueviolet;
+background-color: black;
 }
 .color2{
     background-color: aqua;
 }
 .color3{
-    background-color: chocolate;
+    background-color:blueviolet;
 }
 .color4{
 background-color: greenyellow;
