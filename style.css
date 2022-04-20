@@ -11,12 +11,15 @@
 #pixel-board{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
+    
 }
 
-#pixel{
+.pixel{
     width: 40px;
     height: 40px;
     border: 1px solid black;
+    background-color: white;
+    
 }
 
 .color1{
@@ -31,3 +34,6 @@ background-color: black;
 .color4{
 background-color: greenyellow;
 }
+
+
+
