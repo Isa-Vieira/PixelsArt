@@ -22,4 +22,15 @@ function selectColor(event) {
   }  
    cl.className += ' selected';
 }
+
 palletColor.addEventListener('click', selectColor);
+
+
+const pixelGrid = document.getElementById('pixel-board');
+function setColor(event) {
+  const cl = event.target;
+  const colorInPallet = document.querySelector('.selected')
+  .style.backgroundColor;
+  cl.style.backgroundColor = colorInPallet;
+  }  
+ pixelGrid.addEventListener('click', setColor);
