@@ -34,3 +34,15 @@ function setColor(event) {
   cl.style.backgroundColor = colorInPallet;
   }  
  pixelGrid.addEventListener('click', setColor);
+
+ 
+ const botao = document.getElementById('clear-board')
+ botao.innerText = 'Limpar'
+ function clear(event){
+ const pixels = document.querySelectorAll('.pixel')
+ for(index = 0; index < pixels.length; index +=1){
+ pixels[index].style.backgroundColor = 'white';
+ }
+ }
+ botao.addEventListener('click', clear)
+ 
