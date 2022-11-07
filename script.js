@@ -11,7 +11,7 @@ colors[3].style.backgroundColor = 'rgb('+number3+ ',' + number1+ ',' +number2 + 
 
 }
 criandocores() 
-
+document.get
 
 const palletColor = document.getElementById('color-palette');
 function selectColor(event) {
